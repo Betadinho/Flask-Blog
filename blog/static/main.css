@@ -1,0 +1,142 @@
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+.bg-steel {
+  background-color: #AE1438;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.carousel {
+  border-top: solid 1px #dddddd;
+  border-bottom: solid 1px #dddddd;
+}
+
+.flex-container-buttons
+{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+.carousel-control-next, .carousel-control-prev  {
+  display: flex;
+  position: relative;
+  padding: 5px;
+  color: #AE1438;
+}
+
+.carousel-control-next {
+  margin-left: auto;
+}
+.carousel-control-prev {
+  margin-left: 90%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  padding: 5px;
+  height: 23px;
+  width: 23px;
+  background-size: 100%, 100%;
+  background-color: #AE1438;
+  border: 2px solid #AE1438;
+}
+
+.spacing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.carousel-indicators li {
+    background-color: grey;
+    width: 20%;
+}
+
+.carousel-indicators .active {
+    background-color: #AE1438;
+}
+
